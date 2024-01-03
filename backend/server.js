@@ -17,7 +17,7 @@ const pool = mysql.createPool({
 });
 
 app.get("/", async (req, res) => {
-  const [todos] = await pool.query(`SELECT * FROM todos`);
+  const [todos] = await pool.query(`SELECT * FROM Persons`);
 
   res.send(todos);
 });
