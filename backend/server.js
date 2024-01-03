@@ -21,6 +21,7 @@ app.get("/", async (req, res) => {
 
   res.send(todos);
 });
+
 app.get("/about", function (req, res) {
   res.send("lorem ipsum dolor .......");
 });
