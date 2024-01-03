@@ -9,7 +9,7 @@ const app = express();
 app.use(cors());
 
 const pool = mysql.createPool({
-  host: "localhost",
+  host: "144.126.218.194",
   user: "root",
   password: "password",
   database: "test_db",
